@@ -14,7 +14,7 @@
 
 ###############__CONF__###############
 BIND_ADDR = '127.0.0.1'
-BIND_PORT = 8080
+BIND_PORT = 1080
 PROXT_ADDR = '10.4.4.4'
 PROXY_PORT = 8080
 PAYLOAD = 'CONNECT [host_port] [protocol][crlf]Host: static.line.naver.jp[crlf]X-Online-Host: static.line.naver.jp[crlf]Connection: Keep-Alive[crlf]User-Agent: Mozilla/5.0 (Linux; Android 7.1.1; SM-C710F Build/NMF26X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36[crlf][crlf]'
