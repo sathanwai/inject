@@ -116,7 +116,7 @@ class Server:
         time.sleep(1)
         sys.stderr.write(self.config('Configuration'))
         time.sleep(2)
-        sys.stderr.write(self.log('ต่อเเล้วเรียบร้อยจ้ะ ไอ้หำ'))
+        sys.stderr.write(self.log('========Inject Sukses======== \nReading Server:'))
 
     def run(self):
         ServerHandler.LogWindow(True)
